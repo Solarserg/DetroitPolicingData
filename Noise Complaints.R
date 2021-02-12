@@ -41,6 +41,3 @@ nc <- sc_master[sc_master$calldescription == 'NOISE COMPLAINT',]
 
 # Save file
 write_csv(nc, "noise_complaints.csv")
-
-
-# Pass through ArcGIS Pro to add census block column for noise complaints
